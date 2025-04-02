@@ -1,0 +1,29 @@
+{
+  "name": "devtinder",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "homepage": "https://github.com/mddanish004/devTinder#readme",
+  "bugs": {
+    "url": "https://github.com/mddanish004/devTinder/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mddanish004/devTinder.git"
+  },
+  "license": "ISC",
+  "author": "Md Danish Ansari",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+  "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9"
+  }
+}
